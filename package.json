@@ -1,17 +1,18 @@
 {
   "name": "syn-luaulsp",
   "version": "1.0.0",
+  "type": "commonjs",
   "description": "",
-  "main": "./Client/index.js",
+  "main": "Client/index.js",
   "scripts": {
+    "start": "node Client/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Shadow (ShadowCorp)",
+  "author": "",
   "license": "ISC",
   "dependencies": {
-    "esm": "^3.2.25",
-    "express": "^4.19.2",
-    "http-server": "^14.1.1",
-    "monaco-languageclient": "^8.4.0"
+    "monaco-languageclient": "^8.4.0",
+    "path": "^0.12.7",
+    "vscode-languageclient": "^9.0.1"
   }
 }
